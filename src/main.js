@@ -4,7 +4,8 @@ import router from './router'
 import store from './store'
 
 Vue.config.productionTip = false
-
+import HeyWorld from '@/components/HeyWorld.vue'
+Vue.component("HeyWorld",HeyWorld)
 new Vue({
   router,
   store,

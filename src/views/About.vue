@@ -6,7 +6,7 @@
 		<button @click="add">+</button>
 		<p>{{normal()}}</p>
 		<p>{{computed1}}</p>
-		
+		<HeyWorld></HeyWorld>
 	</div>
 </template>
 <script>
